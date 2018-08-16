@@ -11,4 +11,7 @@ module.exports = (api, options, rootOptions) => {
     if (options.foo) {
       // 有条件地生成文件
     }
+
+    console.log(options)
+    console.log(rootOptions)
   }
